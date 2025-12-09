@@ -1370,8 +1370,7 @@ body {
                 .foot--2--box {
                     display: flex;
                     align-items: center;
-                    gap: 22px;
-
+                    gap: 12px;
                     p {
                         font-family: 'Open Sans';
                         font-weight: 400;

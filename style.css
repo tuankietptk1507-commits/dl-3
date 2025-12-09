@@ -1894,6 +1894,7 @@ body {
         }
 
         .section--3 {
+            padding-inline: 15px;
             .section--3--box {
                 flex-direction: column;
                 gap: 94px;
@@ -1920,11 +1921,13 @@ body {
                             width: 100%;
                             display: flex;
                             justify-content: space-between;
-                            gap: 5px;
+                            gap: 10px;
 
                             .above--3 {
                                 max-width: 208px;
                                 width: 100%;
+                                gap: 10px;
+                                justify-content: space-between;
 
                                 p {
                                     font-size: 18px;
@@ -2033,7 +2036,13 @@ body {
         }
 
         .section--5 {
+            padding-inline: 15px;
             .section--5--box {
+                .section--5--letter{
+                    h3{
+                        font-size: 32px;
+                    }
+                }
                 .section--5--content {
                     flex-direction: column;
 
@@ -2173,6 +2182,7 @@ body {
         }
 
         .section--8 {
+            padding-inline: 15px;
             .section--8--box {
                 .section--8--letter{
                     h3{

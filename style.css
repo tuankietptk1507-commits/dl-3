@@ -1371,6 +1371,8 @@ body {
                     display: flex;
                     align-items: center;
                     gap: 12px;
+                    max-width: 289px;
+                    width: 100%;
                     p {
                         font-family: 'Open Sans';
                         font-weight: 400;

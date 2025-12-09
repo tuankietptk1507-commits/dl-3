@@ -1751,6 +1751,7 @@ body {
 @media (max-width:739px) {
     body {
         header {
+            padding-inline:0 ;
             .head {
                 max-width: 480px;
                 width: 100%;
@@ -1914,11 +1915,15 @@ body {
                     }
 
                     .left--3--3 {
+                        width: 100%;
                         .left--3--above {
-                            gap: 0px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 5px;
 
                             .above--3 {
-                                max-width: calc(100% / 2);
+                                max-width: 208px;
                                 width: 100%;
 
                                 p {
@@ -2114,6 +2119,7 @@ body {
         }
 
         .section--7 {
+            padding-inline: 15px;
             .section--7--box {
                 flex-direction: column;
                 gap: 60px;
@@ -2154,6 +2160,13 @@ body {
                     .right--7--box {
                         max-width: 416px;
                         width: 100%;
+                        .box--7--2{
+                            .box--7--so{
+                                img{
+                                    margin-right: 12px;
+                                }
+                            }
+                        }
                     }
                 }
             }

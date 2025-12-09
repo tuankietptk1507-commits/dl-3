@@ -1783,7 +1783,7 @@ body {
 
         .section--1 {
             padding-top: 80px;
-            padding-inline: 0;
+            padding-inline: 15px;
 
             .section--1--box {
                 flex-direction: column;
@@ -1793,7 +1793,6 @@ body {
                 .section--1--left {
                     max-width: 624px;
                     width: 100%;
-                    padding-inline: 30px;
 
                     .left--1--above {
                         align-items: center;
@@ -1843,6 +1842,8 @@ body {
 
                         h4 {
                             width: 100%;
+                            font-size: 20px;
+                            gap: 24px;
 
                             .li {
                                 display: block;

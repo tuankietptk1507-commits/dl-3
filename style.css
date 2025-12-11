@@ -282,7 +282,7 @@ body {
                     border-radius: 50%;
                     background: transparent;
                     position: absolute;
-                    left: calc(50% - 450px);
+                    left: calc(50% - 400px);
                     top: 20%;
                     transform: translate(-50%, -50%);
 

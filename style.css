@@ -330,6 +330,7 @@ body {
 
                         }
                     }
+
                     .above--2 {
                         display: flex;
                         align-items: center;
@@ -342,6 +343,7 @@ body {
                             overflow: hidden;
                             width: 100%;
                             max-width: 207px;
+
                             .left {
                                 width: 16px;
                                 position: relative;
@@ -350,6 +352,7 @@ body {
                                     height: calc(100% - 16px);
                                     background: #FF9D29;
                                 }
+
                                 .bottom {
                                     width: 50px;
                                     height: 50px;
@@ -360,6 +363,7 @@ body {
                                     bottom: 43px;
                                 }
                             }
+
                             button {
                                 margin: auto;
                                 display: flex;
@@ -1886,12 +1890,11 @@ body {
                     width: 100%;
 
                     .b--1 {
-                        left: calc(50%);
+                        left: calc(50% );
                         top: 10%;
                     }
-
-                    .b--2 {
-                        left: calc(50% - 800px);
+                    .b--2{
+                         left: calc(50% - 800px );
                         top: 40%;
                     }
 
@@ -2255,14 +2258,12 @@ body {
                 .section--1--left {
                     max-width: 624px;
                     width: 100%;
-
                     .b--1 {
-                        left: calc(50% - 150px);
+                        left: calc(50% - 150px );
                         top: 10%;
                     }
-
-                    .b--2 {
-                        left: calc(50% - 600px);
+                    .b--2{
+                         left: calc(50% - 600px );
                         top: 40%;
                     }
 

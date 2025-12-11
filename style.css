@@ -1848,6 +1848,16 @@ body {
 
 @media (min-width:740px) and (max-width:990px) {
     body {
+        .b--1 {
+            left: calc(50% - 50PX);
+            top: 10%;
+        }
+
+        .b--2 {
+            left: calc(50% - 750px);
+            top: 20%;
+        }
+
         header {
             display: block;
 
@@ -1917,16 +1927,6 @@ body {
                 .section--1--left {
                     max-width: 624px;
                     width: 100%;
-
-                    .b--1 {
-                        left: calc(50%);
-                        top: 10%;
-                    }
-
-                    .b--2 {
-                        left: calc(50% - 800px);
-                        top: 40%;
-                    }
 
                     .left--1--above {
                         align-items: center;
@@ -2243,6 +2243,15 @@ body {
 
 @media (max-width:739px) {
     body {
+        .b--1 {
+            left: calc(50% - 200px);
+            top: 10%;
+        }
+
+        .b--2 {
+            left: calc(50% - 600px);
+            top: 30%;
+        }
         header {
             padding-inline: 0;
 

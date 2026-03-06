@@ -51,7 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 180px;
-
+    height: 135px;
     opacity: 0;
     visibility: hidden;
     transition: 0.3s ease;

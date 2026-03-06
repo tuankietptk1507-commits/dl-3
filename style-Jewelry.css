@@ -5,6 +5,71 @@
       font-family: 'Times New Roman', Times, serif;
   }
 
+  .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+  }
+
+  .nav-menu a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      letter-spacing: 2px;
+  }
+
+  .dropdown {
+      position: relative;
+  }
+
+  .dropdown-menu {
+      position: absolute;
+      top: 35px;
+      left: 50%;
+      transform: translateX(-50%) translateY(10px);
+
+      background: white;
+      border: 1px solid #eee;
+      display: flex;
+      flex-direction: column;
+      width: 180px;
+
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s ease;
+  }
+
+  .dropdown-menu a {
+      padding: 12px 0;
+      font-size: 14px;
+      text-align: center;
+      position: relative;
+  }
+
+  .dropdown-menu a::after {
+      content: "";
+      position: absolute;
+      left: 20%;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background: black;
+      transition: 0.3s;
+  }
+
+  .dropdown-menu a:hover {
+      background: #f7f7f7;
+  }
+
+  .dropdown-menu a:hover::after {
+      width: 60%;
+  }
+
+  .dropdown:hover .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(0);
+  }
 
   .hero-header {
       height: 40vh;
@@ -72,8 +137,6 @@
   .product-card:hover {
       transform: translateY(-10px);
   }
-
-  /* FOOTER (giữ từ trang cũ) */
 
   .main-footer {
       background: black;

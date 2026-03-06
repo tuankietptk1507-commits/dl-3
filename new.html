@@ -11,45 +11,37 @@
 
 <body>
     <header class="main-header">
-
         <div class="header-left">
             <h2 class="logo">CANIS MINORIS</h2>
         </div>
-
         <nav class="nav-menu">
             <a href="./index.html">Home</a>
-            <a href="./Jewelry.html">Jewelry</a>
+            <div class="dropdown">
+                <a href="./Jewelry.html">Jewelry</a>
+                <div class="dropdown-menu">
+                    <a href="./Jewelry.html?type=bracelet">Bracelet</a>
+                    <a href="./Jewelry.html?type=necklace">Necklace</a>
+                    <a href="./Jewelry.html?type=ring">Ring</a>
+                </div>
+            </div>
             <a href="./new.html">News</a>
             <a href="./contact.html">Contact Us</a>
         </nav>
-
         <div class="header-right">
             <div class="search-box">
                 <input type="text" placeholder="Search...">
                 <i class="fas fa-search"></i>
             </div>
         </div>
-
     </header>
-    <header class="hero-header">
-        <div class="logo-container">
-            <h1>CANIS MINORIS</h1>
-        </div>
-    </header>
-
-
     <h2 class="news-title">Latest News</h2>
-
     <section class="news-container">
-
         <div class="news-row">
-
             <div class="news-card">
                 <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338">
                 <h3>New Jewelry Collection 2025</h3>
                 <p>Discover the newest crystal jewelry collection designed with elegance and modern luxury.</p>
             </div>
-
             <div class="news-card">
                 <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908">
                 <h3>Behind The Design</h3>
@@ -63,8 +55,6 @@
             </div>
 
         </div>
-
-
         <div class="news-row">
 
             <div class="news-card">
@@ -78,61 +68,51 @@
                 <h3>Celebrity Collaboration</h3>
                 <p>A famous celebrity joins CANIS MINORIS to launch a special jewelry edition.</p>
             </div>
-
             <div class="news-card">
-                <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53">
+                <img src="./img/Trang-suc-2_1662383258.webp">
                 <h3>Global Expansion</h3>
                 <p>The brand expands stores to more than 30 countries worldwide.</p>
             </div>
 
         </div>
-
     </section>
-
-    <!-- FOOTER -->
-
     <footer class="main-footer">
-
         <div class="footer-columns">
-
             <div class="footer-col">
                 <h4>Customer Service & FAQ</h4>
                 <ul>
-                    <li>Contact Us</li>
-                    <li>Size Guide</li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
                 </ul>
             </div>
-
             <div class="footer-col">
                 <h4>Legal</h4>
                 <ul>
                     <li>Terms Of Use</li>
+                    <li>Terms & Conditions</li>
                     <li>Privacy Policy</li>
                     <li>Cookie Consent</li>
+                    <li>Imprint</li>
+                    <li>REACH information</li>
+                    <li>Data Protection Consent Statement</li>
                 </ul>
             </div>
-
         </div>
 
         <hr class="footer-divider">
 
         <div class="footer-bottom">
-
-            <div>
-                <h2>CANIS MINORIS</h2>
+            <div class="footer-info">
+                <h2 class="footer-logo">CANIS MINORIS</h2>
                 <p>Via dei Condotti, Rome, Italia</p>
             </div>
-
             <div class="social-icons">
-                <i class="fab fa-tiktok"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
-
         </div>
-
     </footer>
-
 </body>
 
 </html>

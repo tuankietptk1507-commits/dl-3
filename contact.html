@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style-contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <header class="main-header">
-
+   <header class="main-header">
         <div class="header-left">
             <h2 class="logo">CANIS MINORIS</h2>
         </div>
-
         <nav class="nav-menu">
             <a href="./index.html">Home</a>
-            <a href="./Jewelry.html">Jewelry</a>
+            <div class="dropdown">
+                <a href="./Jewelry.html">Jewelry</a>
+                <div class="dropdown-menu">
+                    <a href="./Jewelry.html?type=bracelet">Bracelet</a>
+                    <a href="./Jewelry.html?type=necklace">Necklace</a>
+                    <a href="./Jewelry.html?type=ring">Ring</a>
+                </div>
+            </div>
             <a href="./new.html">News</a>
             <a href="./contact.html">Contact Us</a>
         </nav>
-
         <div class="header-right">
             <div class="search-box">
                 <input type="text" placeholder="Search...">
